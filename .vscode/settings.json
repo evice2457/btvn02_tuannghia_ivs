@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.sourceDir": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/../../build",
+    "files.exclude": {
+        "**/.colcon": true,
+        "**/build": true,
+        "**/install": true
+    }
+}
