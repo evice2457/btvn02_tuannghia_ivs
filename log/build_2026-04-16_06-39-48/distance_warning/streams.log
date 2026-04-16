@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning -- -j4 -l4
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_c[0m
+[0.037s] [  1%] Built target distance_warning__cpp
+[0.037s] [  3%] Built target distance_warning__rs
+[0.038s] [ 11%] Built target distance_warning__rosidl_generator_c
+[0.041s] [ 11%] Built target ament_cmake_python_copy_distance_warning
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target distance_publisher[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target distance_listener[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target distance_tf_broadcaster[0m
+[0.052s] [ 14%] Built target distance_publisher
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_cpp[0m
+[0.059s] [ 18%] Built target distance_tf_broadcaster
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c[0m
+[0.063s] [ 22%] Built target distance_listener
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c[0m
+[0.064s] [ 29%] Built target distance_warning__rosidl_typesupport_fastrtps_cpp
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_cpp[0m
+[0.071s] [ 37%] Built target distance_warning__rosidl_typesupport_introspection_c
+[0.072s] [ 44%] Built target distance_warning__rosidl_typesupport_c
+[0.075s] [ 51%] Built target distance_warning__rosidl_typesupport_introspection_cpp
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_cpp[0m
+[0.078s] [ 59%] Built target distance_warning__rosidl_typesupport_fastrtps_c
+[0.081s] [ 66%] Built target distance_warning__rosidl_typesupport_cpp
+[0.089s] [ 66%] Built target distance_warning
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target set_threshold_service[0m
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target distance_action_server[0m
+[0.097s] [ 68%] Built target distance_warning__py
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target distance_action_client[0m
+[0.106s] [ 72%] Built target distance_action_server
+[0.106s] [ 75%] Built target set_threshold_service
+[0.111s] [ 79%] Built target distance_action_client
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target distance_tf_listener[0m
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_generator_py[0m
+[0.120s] [ 81%] [32mBuilding CXX object CMakeFiles/distance_tf_listener.dir/src/distance_tf_listener.cpp.o[0m
+[0.120s] [ 87%] Built target distance_warning__rosidl_generator_py
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_introspection_c__pyext[0m
+[0.131s] [ 90%] Built target distance_warning__rosidl_typesupport_fastrtps_c__pyext
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target distance_warning__rosidl_typesupport_c__pyext[0m
+[0.139s] [ 94%] Built target distance_warning__rosidl_typesupport_introspection_c__pyext
+[0.140s] [ 98%] Built target distance_warning__rosidl_typesupport_c__pyext
+[0.200s] running egg_info
+[0.200s] writing distance_warning.egg-info/PKG-INFO
+[0.200s] writing dependency_links to distance_warning.egg-info/dependency_links.txt
+[0.200s] writing top-level names to distance_warning.egg-info/top_level.txt
+[0.201s] reading manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.201s] writing manifest file 'distance_warning.egg-info/SOURCES.txt'
+[0.218s] [ 98%] Built target ament_cmake_python_build_distance_warning_egg
+[1.532s] [01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:[m[K In constructor ‘[01m[KDistanceTfListener::DistanceTfListener()[m[K’:
+[1.532s] [01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:27:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.532s]    27 |   [01;31m[K}[m[K
+[1.532s]       |   [01;31m[K^[m[K
+[1.885s] gmake[2]: *** [CMakeFiles/distance_tf_listener.dir/build.make:76: CMakeFiles/distance_tf_listener.dir/src/distance_tf_listener.cpp.o] Error 1
+[1.885s] gmake[1]: *** [CMakeFiles/Makefile2:787: CMakeFiles/distance_tf_listener.dir/all] Error 2
+[1.885s] gmake: *** [Makefile:146: all] Error 2
+[1.887s] Invoked command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning -- -j4 -l4

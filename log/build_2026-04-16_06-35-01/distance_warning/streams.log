@@ -1,0 +1,79 @@
+[0.012s] Invoking command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/evice2457/ros2_ws/src/distance_warning -DCMAKE_INSTALL_PREFIX=/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.236s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.294s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.355s] -- Detecting CXX compile features
+[0.355s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.594s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.631s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.729s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.749s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.785s] -- Looking for pthread.h
+[0.833s] -- Looking for pthread.h - found
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.873s] -- Found Threads: TRUE  
+[0.908s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.932s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.945s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[0.962s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.999s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.012s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.013s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.013s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.173s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.469s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.471s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.486s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.486s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.486s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.486s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.500s] -- Found PythonExtra: .so  
+[1.574s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.574s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.574s]   rosidl_target_interfaces()
+[1.574s] Call Stack (most recent call first):
+[1.574s]   CMakeLists.txt:33 (rosidl_target_interfaces)
+[1.574s] 
+[1.574s] [0m
+[1.576s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.576s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.576s]   rosidl_target_interfaces()
+[1.577s] Call Stack (most recent call first):
+[1.577s]   CMakeLists.txt:38 (rosidl_target_interfaces)
+[1.577s] 
+[1.577s] [0m
+[1.577s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.577s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.577s]   rosidl_target_interfaces()
+[1.577s] Call Stack (most recent call first):
+[1.577s]   CMakeLists.txt:43 (rosidl_target_interfaces)
+[1.577s] 
+[1.577s] [0m
+[1.579s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.579s]   ament_target_dependencies() the first argument must be a valid target name
+[1.579s] Call Stack (most recent call first):
+[1.579s]   CMakeLists.txt:51 (ament_target_dependencies)
+[1.579s] 
+[1.579s] [0m
+[1.580s] -- Configuring incomplete, errors occurred!
+[1.580s] See also "/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning/CMakeFiles/CMakeOutput.log".
+[1.586s] Invoked command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/evice2457/ros2_ws/src/distance_warning -DCMAKE_INSTALL_PREFIX=/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning

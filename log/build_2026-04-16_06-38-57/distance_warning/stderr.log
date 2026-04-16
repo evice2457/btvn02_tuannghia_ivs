@@ -1,0 +1,44 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:38 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:43 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_action_server.cpp:[m[K In member function ‘[01m[Kvoid DistanceActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<distance_warning::action::CheckDistance> >)[m[K’:
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_action_server.cpp:66:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   66 |     for (int i = 0; [01;35m[Ki < steps.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:[m[K In constructor ‘[01m[KDistanceTfListener::DistanceTfListener()[m[K’:
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:27:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   27 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:[m[K In member function ‘[01m[Kvoid DistanceTfListener::lookupAndCheck()[m[K’:
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRCCLPP[m[K’ was not declared in this scope
+   41 |       [01;31m[KRCCLPP[m[K.INFO(this->get_logger(), "Distance to sensor_link: %.2f m", dist);
+      |       [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/distance_tf_listener.dir/build.make:76: CMakeFiles/distance_tf_listener.dir/src/distance_tf_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:787: CMakeFiles/distance_tf_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

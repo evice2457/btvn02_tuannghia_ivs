@@ -1,0 +1,7 @@
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:[m[K In constructor ‘[01m[KDistanceTfListener::DistanceTfListener()[m[K’:
+[01m[K/home/evice2457/ros2_ws/src/distance_warning/src/distance_tf_listener.cpp:27:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   27 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/distance_tf_listener.dir/build.make:76: CMakeFiles/distance_tf_listener.dir/src/distance_tf_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:787: CMakeFiles/distance_tf_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

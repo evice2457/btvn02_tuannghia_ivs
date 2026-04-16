@@ -1,0 +1,109 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'distance_warning']
+[0.058s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['distance_warning'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff83c36710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83df3ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83df3ee0>>)
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.144s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/evice2457/ros2_ws/src/distance_warning'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'distance_warning'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.172s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/evice2457/ros2_ws/install
+[0.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_target' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_clean_first' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'cmake_force_configure' from command line to 'False'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'ament_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.202s] Level 5:colcon.colcon_core.verb:set package 'distance_warning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.202s] DEBUG:colcon.colcon_core.verb:Building package 'distance_warning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning', 'merge_install': False, 'path': '/home/evice2457/ros2_ws/src/distance_warning', 'symlink_install': False, 'test_result_base': None}
+[0.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.204s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/evice2457/ros2_ws/src/distance_warning' with build type 'ament_cmake'
+[0.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/evice2457/ros2_ws/src/distance_warning'
+[0.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning -- -j4 -l4
+[2.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning -- -j4 -l4
+[2.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning
+[2.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_warning)
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/evice2457/ros2_ws/src/distance_warning/build/distance_warning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evice2457/ros2_ws/install/launch_testing_examples:/home/evice2457/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_service:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_publisher:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_client:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_server:/home/evice2457/ros2_ws/install/examples_rclpy_minimal_action_client:/home/evice2457/ros2_ws/install/examples_rclpy_guard_conditions:/home/evice2457/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/evice2457/ros2_ws/src/distance_warning/build/distance_warning
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning' for CMake module files
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning' for CMake config files
+[2.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_warning', 'cmake_prefix_path')
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.sh'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib'
+[2.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_warning', 'ld_library_path_lib')
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.sh'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/bin'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib/pkgconfig/distance_warning.pc'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib/python3.10/site-packages'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/bin'
+[2.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.ps1'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.sh'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.bash'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.zsh'
+[2.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/colcon-core/packages/distance_warning)
+[2.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(distance_warning)
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning' for CMake module files
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning' for CMake config files
+[2.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_warning', 'cmake_prefix_path')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/cmake_prefix_path.sh'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib'
+[2.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('distance_warning', 'ld_library_path_lib')
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/hook/ld_library_path_lib.sh'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/bin'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib/pkgconfig/distance_warning.pc'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/lib/python3.10/site-packages'
+[2.463s] Level 1:colcon.colcon_core.environment:checking '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/bin'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.ps1'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.dsv'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.bash'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/distance_warning/package.zsh'
+[2.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/evice2457/ros2_ws/src/distance_warning/install/distance_warning/share/colcon-core/packages/distance_warning)
+[2.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.466s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evice2457/ros2_ws/src/distance_warning/install/local_setup.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/evice2457/ros2_ws/src/distance_warning/install/_local_setup_util_ps1.py'
+[2.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evice2457/ros2_ws/src/distance_warning/install/setup.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evice2457/ros2_ws/src/distance_warning/install/local_setup.sh'
+[2.468s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/evice2457/ros2_ws/src/distance_warning/install/_local_setup_util_sh.py'
+[2.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evice2457/ros2_ws/src/distance_warning/install/setup.sh'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evice2457/ros2_ws/src/distance_warning/install/local_setup.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evice2457/ros2_ws/src/distance_warning/install/setup.bash'
+[2.471s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/evice2457/ros2_ws/src/distance_warning/install/local_setup.zsh'
+[2.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/evice2457/ros2_ws/src/distance_warning/install/setup.zsh'
